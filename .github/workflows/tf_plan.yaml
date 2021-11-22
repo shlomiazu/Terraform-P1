@@ -1,0 +1,17 @@
+name: tf_plan
+on:
+  workflow_dispatch:
+    inputs:
+      application:
+        type: choice
+        description: Select application
+        required: true
+        options:
+          - EM
+
+jobs:
+  build:
+    runs-on: #TODO work with tf as container
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
