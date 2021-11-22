@@ -1,0 +1,8 @@
+cd "C:\Users\shlomia\OneDrive - Nayax LTD\FOG\Documents\Yossi krichli\Terraform-P1\environments\EM"
+
+terraform init = ..\..\..\terraform.exe -chdir=..\..\src\ init -var-file envconfig.tfvars -backend=true -input=false
+
+terraform plan = terraform plan = ..\..\..\terraform.exe -chdir=..\..\src\ plan -var-file envconfig.tfvars -input=false
+
+set secret_key=xxx
+set access_key=xxx
