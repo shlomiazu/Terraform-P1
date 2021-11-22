@@ -1,0 +1,7 @@
+1. create side branch with name "asg_creation"
+2. create launch template with same configs you made manually
+3. create auto scaling group using launch template from section 2
+
+Reference:
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/launch_template
+look for autoscaling group in google
