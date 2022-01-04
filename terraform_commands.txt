@@ -6,3 +6,6 @@ terraform plan = terraform plan = ..\..\..\terraform.exe -chdir=..\..\src\ plan 
 
 set secret_key=xxx
 set access_key=xxx
+
+
+yossi_test
